@@ -1,0 +1,27 @@
+{
+  "name": "jspaetzel/vestaboard-php",
+  "type": "library",
+  "keywords": [
+    "vestaboard"
+  ],
+  "homepage": "https://github.com/jspaetzel/vestaboard-php",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "symfony/dotenv": "^6.0",
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vestaboard\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
